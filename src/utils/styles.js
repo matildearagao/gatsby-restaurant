@@ -31,3 +31,9 @@ export const border = ({
 }) => {
     return `border:${width} ${type} ${color}`
 }
+
+export const letterSpacing =({
+    spacing = '0.1rem'
+}) => {
+    return `letter-spacing: ${spacing}`
+}
